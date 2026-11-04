@@ -1,4 +1,4 @@
-import image from '../assets/download.jpg'
+import image from '../assets/logo.png'
 import './Nav.css'
 
 const Nav = () => {
