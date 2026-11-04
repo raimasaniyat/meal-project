@@ -1,4 +1,5 @@
 import { use } from "react";
+import SingleFood from "./SingleFood";
 
 const FoodSection = ({foodDataRes}) => {
 
@@ -8,7 +9,7 @@ const FoodSection = ({foodDataRes}) => {
     return (
         <div>
             {
-                foods.map(food => <h1>{food.strMeal}</h1>)
+                foods.map(food => <SingleFood food = {food} ></SingleFood>)
             }
         </div>
     );
