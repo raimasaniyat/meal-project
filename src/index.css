@@ -2,4 +2,43 @@
     padding: 0;
     margin: 0;
     box-shadow: none;
+    background-color: #FF9000;
+}
+.about{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    color: bisque;
+}
+.whole-body{
+    padding: 10px;
+}
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1000px;
+    margin: auto;
+    gap: 35px 10px;
+}
+.single-food{
+    width: 200px;
+    height: auto;
+    padding: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.single-food img{
+    width: 100%;
+    height: auto;
+}
+.single-food h1{
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    margin-top: 10px;
+}
+.single-food:hover{
+    box-shadow: 0px 15px 10px rgba(203, 195, 195, 0.559);
+    border: 1px solid #e1794c;
 }

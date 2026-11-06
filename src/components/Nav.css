@@ -27,12 +27,19 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     gap: 10px;
+    background-color: brown;
+}
+ul li{
+        background-color: brown;
+
 }
 ul li a{
     text-decoration: none;
     color: white;
     font-weight: 700;
+    background-color: brown;
+
 }
 ul li a:hover{
-    color: yellow;
+    color: #FF9000;
 }

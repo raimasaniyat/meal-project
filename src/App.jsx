@@ -13,9 +13,11 @@ function App() {
     <section className="about">
       Best Recipes are all in one place!
     </section>
-    <Suspense>
+    <section className='whole-body'>
+      <Suspense fallback={<p>loading...</p>}>
       <FoodSection foodDataRes = {foodDataRes}></FoodSection>
     </Suspense>
+    </section>
 
     </>
   )

@@ -7,7 +7,7 @@ const FoodSection = ({foodDataRes}) => {
     const foods = data.meals
     console.log(foods)
     return (
-        <div>
+        <div className="food-container">
             {
                 foods.map(food => <SingleFood food = {food} ></SingleFood>)
             }
