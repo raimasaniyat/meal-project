@@ -13,19 +13,35 @@
 .whole-body{
     padding: 10px;
 }
+.container-parent{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+}
 .food-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    max-width: 1000px;
-    margin: auto;
-    gap: 35px 10px;
+    gap: 20px;
+    width: 70%; 
+}
+.cart-parent{
+    width: 20%;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.cart-parent h1{
+    background-color: bisque;
+    /* border-radius: 10px; */
+    color: brown;
+    font-size: 18px;
+    padding: 10px;
 }
 .single-food{
     width: 200px;
     height: auto;
     padding: 50px;
     background-color: bisque;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border: 1px solid transparent;
 }
 .single-food img{
